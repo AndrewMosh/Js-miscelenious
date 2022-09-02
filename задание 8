@@ -1,0 +1,15 @@
+let jamesCameron = new Map([
+  ["Terminator 2", 1991],
+
+  ["Titanic", 1997],
+
+  ["Avatar", 2009],
+]);
+
+let jKeys = jamesCameron.keys();
+
+//идём по циклу от 0 до размера Map
+for (let i = 0; i < jamesCameron.size; i++) {
+  let key = jKeys.next();
+  console.log(`Ключ- ${key.value}, Значение- ${jamesCameron.get(key.value)}`);
+}

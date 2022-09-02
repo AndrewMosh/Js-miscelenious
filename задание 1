@@ -1,4 +1,4 @@
-var x = prompt();
+var x = prompt("Введите число");
 var x = +x;
 if (typeof x == "number" && !isNaN(x)) {
   if (x % 2 === 0) {
